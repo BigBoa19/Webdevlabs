@@ -62,7 +62,6 @@ function greetingFunc(){
         msg = "Good Night";
         console.log("Good Night");
     }
-    console.log(window.location.href);
 
     if(window.location.pathname.endsWith("index.html")){
         let E = document.getElementById("Greeting")

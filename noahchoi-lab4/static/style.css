@@ -1,0 +1,60 @@
+* {
+    font-family: "Roboto";
+    padding: 5px;
+    margin: 5px;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+#webname {
+  background-color: rgb(213, 154, 200);
+}
+
+.nav {
+  text-decoration: none;
+  color: #4e3d78;
+  margin-right: 15px;
+}
+
+header {
+  color: beige;
+}
+
+#FavList {
+  display: none;
+}
+
+#long-intro {
+  display: none;
+}
+
+#read-less {
+  display: none;
+}
+
+th {
+  padding: 12px;
+  color: aqua;
+  background-color: rgb(213, 154, 200);
+  width: fit-content;
+}
+
+table tr:nth-child(2n) {
+  background-color: rgb(171, 157, 137);
+}
+
+form * {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: cadetblue;
+  border-radius: 4px;
+}

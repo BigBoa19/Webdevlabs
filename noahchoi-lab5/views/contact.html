@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="../static/script.js" defer></script>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="author" content="Noah Choi">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Noah professional website">
+    <title>Noah Choi</title>
+</head>
+<body style="font-family: Arial " onload="addYear()">
+    <header>
+        <h1 id="webname">Noah Choi</h1>
+        <nav>
+            <a class="nav" href="../index.html">Home</a>
+            <a class="nav" href="./cv.html">CV</a>
+            <a class="nav" href="./contact.html">Contact me</a>
+            <a class="nav" href="./fun.html">For fun</a>
+        </nav>
+    </header>
+    <div class="mainLayout">
+        <div class="item1">
+            <h2>Find Me</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6507.805653974743!2d-79.94898991692565!3d40.44320241090626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f21f58679a9f%3A0x88716b461fc4daf4!2sCarnegie%20Mellon%20University!5e1!3m2!1sen!2sus!4v1742415440888!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+        </div>
+        <div class="item2">
+            <h2 class="Contact"><p>Contact</p></h2>
+            <form>
+                <label for="fname">Your Name:</label><br>
+                <input type="text" id="fname" name="fname" required><br>
+                <label for="femail">Your email:</label><br>
+                <input type="text" id="femail" name="femail" required><br>
+                <label for="fmessage">Your comment:</label><br>
+                <textarea id="fmessage" name="fmessage" rows="5" cols="40" required></textarea><br>
+                <button onclick="validate()" type="button">Send</button>
+                <p id="validity-msg"></p>
+            </form>
+        </div>
+    </div>
+    <table>
+        <tr>
+            <th>Contact Type</th>
+            <th>Contact Info</th>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>choinoah2005@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Phone</td>
+            <td>412-901-3050</td>
+        </tr>
+        <tr>
+            <td>LinkedIn</td>
+            <td><a href="https://www.linkedin.com/in/noah-choi-b933b2285/" target="_blank" rel="noopener noreferrer">Link</a></td>
+        </tr>
+    </table>
+
+    <footer id="copyYear">2025 designed and coded by Noah Choi</footer>
+</body>
+</html>
